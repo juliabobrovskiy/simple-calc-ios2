@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleCalciOS2/ViewController.swift"
+            timestampString = "561955571.095397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleCalciOS2.ViewController.newOp.getter : Swift.Bool"
+                  moduleName = "SimpleCalciOS2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabobrovskiy/Desktop/SimpleCalciOS2/SimpleCalciOS2/ViewController.swift"
+                  timestampString = "561929218.1135221"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleCalciOS2.ViewController.newOp.setter : Swift.Bool"
+                  moduleName = "SimpleCalciOS2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabobrovskiy/Desktop/SimpleCalciOS2/SimpleCalciOS2/ViewController.swift"
+                  timestampString = "561929218.115512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleCalciOS2.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SimpleCalciOS2.ViewController"
+                  moduleName = "SimpleCalciOS2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabobrovskiy/Desktop/SimpleCalciOS2/SimpleCalciOS2/ViewController.swift"
+                  timestampString = "561929218.11729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleCalciOS2.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SimpleCalciOS2.ViewController&gt;"
+                  moduleName = "SimpleCalciOS2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliabobrovskiy/Desktop/SimpleCalciOS2/SimpleCalciOS2/ViewController.swift"
+                  timestampString = "561929218.11902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "465">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -12,12 +12,16 @@ class ViewController: UIViewController {
 
     var numTyped: [Int] = []
     var opTyped: [String] = []
+    var results: [String] = []
     var doingMath = false
     var newOp = false
     var count = 0
+    var historyString = ""
+    var historyVals : [String] = []
     
-    //@IBOutlet weak var label: UILabel!
+    
     @IBOutlet weak var label: UILabel!
+    
     
     // Function accepts a button action and clears
     // the calculator's memory
@@ -28,13 +32,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func numbers(_ sender: UIButton) {
-        
         // If new operation is happening clear memory
         // of previous operation
         if(newOp) {
             count = 0
             numTyped = []
             opTyped = []
+            results = []
             label.text = ""
             newOp = false
         }
@@ -66,6 +70,15 @@ class ViewController: UIViewController {
             doingMath = true
         } else if(operation == "=" ){
             label.text = String(result())
+            results.append(label.text!)
+            if(opTyped[0] == "fact") {
+                let addFact = String(numTyped[0]) + " fact = " + results[0]
+                historyVals.append(addFact)
+            }else{
+                let addOther = String(numTyped[0]) + " " + String(opTyped[0]) + " " + String(numTyped[1]) + " = " + results[0]
+                historyVals.append(addOther)
+            }
+            print(historyVals)
             newOp = true
         }
     }
@@ -74,25 +87,25 @@ class ViewController: UIViewController {
         let opperand = opTyped[0]
         let x1 = numTyped[0]
         if(opperand == "fact"){
-            numTyped = []
-            opTyped = []
+//            numTyped = []
+//            opTyped = []
             return factorial(num: x1)
         }else if(opperand == "count"){
-            numTyped = []
-            opTyped = []
+//            numTyped = []
+//            opTyped = []
             return count
         } else if (opperand == "avg"){
             var total = 0
             for val in numTyped {
                 total += val
             }
-            numTyped = []
-            opTyped = []
+//            numTyped = []
+//            opTyped = []
             return total / count
         }else{
             let x2 = numTyped[1]
-            numTyped = []
-            opTyped = []
+//            numTyped = []
+//            opTyped = []
             return doCalc(x1: x1, x2: x2, op: opperand)
         }
     }
@@ -124,11 +137,29 @@ class ViewController: UIViewController {
     }
     
     
+//    @IBAction func historyButton(_ sender: UIButton) {
+//        performSegue(withIdentifier: "toHistory", sender: sender)
+//
+//    }
+//
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if(segue.identifier == "showHistory") {
+            print("hi")
+            let destination = segue.destination as! HistoryPage
+            destination.historyVals = self.historyVals
+//                destination.historyVals = self.historyVals
+                //destination.historyList = self.allFunctions
+                // ^ functions that are used to do calculations.
+            
+        }
+    }
+//
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
 
 }
 

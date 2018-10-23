@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11418247217EA6F700AF954B /* HistoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11418246217EA6F700AF954B /* HistoryPage.swift */; };
 		11601C7F217D3CFA007B399B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11601C7E217D3CFA007B399B /* AppDelegate.swift */; };
 		11601C81217D3CFA007B399B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11601C80217D3CFA007B399B /* ViewController.swift */; };
 		11601C84217D3CFA007B399B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11601C82217D3CFA007B399B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11418246217EA6F700AF954B /* HistoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPage.swift; sourceTree = "<group>"; };
 		11601C7B217D3CF9007B399B /* SimpleCalciOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalciOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11601C7E217D3CFA007B399B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11601C80217D3CFA007B399B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				11601C7E217D3CFA007B399B /* AppDelegate.swift */,
 				11601C80217D3CFA007B399B /* ViewController.swift */,
+				11418246217EA6F700AF954B /* HistoryPage.swift */,
 				11601C82217D3CFA007B399B /* Main.storyboard */,
 				11601C85217D3CFB007B399B /* Assets.xcassets */,
 				11601C87217D3CFB007B399B /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11418247217EA6F700AF954B /* HistoryPage.swift in Sources */,
 				11601C81217D3CFA007B399B /* ViewController.swift in Sources */,
 				11601C7F217D3CFA007B399B /* AppDelegate.swift in Sources */,
 			);
